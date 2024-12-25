@@ -16,6 +16,7 @@
 | title                 | ref                                                   |
 | --------------------- | ----------------------------------------------------- |
 | Crafting Interpreters | https://github.com/GuoYaxiang/craftinginterpreters_zh |
+|                       |                                                       |
 
 
 
@@ -24,13 +25,15 @@
 | about                                                   | ref                                                         |
 | ------------------------------------------------------- | ----------------------------------------------------------- |
 | Style guides for Google-originated open-source projects | [Google Style Guides](https://github.com/google/styleguide) |
+|                                                         |                                                             |
 
 
 
 ### Projects
 
-| name                                      | topics                                                 |
-| ----------------------------------------- | ------------------------------------------------------ |
-| 分布式任务调度平台                        | `java` `cron` `scheduler` `distributed`                |
-| Error Tracking and Performance Monitoring | `python` `monitor `crash-reporting` `error-monitoring` |
+| name                                     | topics                                                  | ref                                           |
+| ---------------------------------------- | ------------------------------------------------------- | --------------------------------------------- |
+| 分布式任务调度平台                       | `java` `cron` `scheduler` `distributed`                 | [xxl-job](https://github.com/xuxueli/xxl-job) |
+| Error Tracking and Performance onitoring | `python` `monitor` `crash reporting` `error monitoring` | [sentry](https://github.com/getsentry/sentry) |
+|                                          |                                                         |                                               |
 

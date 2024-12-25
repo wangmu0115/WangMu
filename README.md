@@ -31,9 +31,9 @@
 
 ### Projects
 
-| name                                     | topics                                                  | ref                                           |
-| ---------------------------------------- | ------------------------------------------------------- | --------------------------------------------- |
-| 分布式任务调度平台                       | `java` `cron` `scheduler` `distributed`                 | [xxl-job](https://github.com/xuxueli/xxl-job) |
-| Error Tracking and Performance onitoring | `python` `monitor` `crash reporting` `error monitoring` | [sentry](https://github.com/getsentry/sentry) |
-|                                          |                                                         |                                               |
+| name                                      | ref                                           |
+| ----------------------------------------- | --------------------------------------------- |
+| 分布式任务调度平台                        | [xxl-job](https://github.com/xuxueli/xxl-job) |
+| Error Tracking and Performance monitoring | [sentry](https://github.com/getsentry/sentry) |
+|                                           |                                               |
 

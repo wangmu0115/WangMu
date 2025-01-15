@@ -1,0 +1,2 @@
+- [Crafting Interpreters](https://github.com/GuoYaxiang/craftinginterpreters_zh)
+- [Python Cookbook 3rd Edition](https://github.com/yidao620c/python3-cookbook)

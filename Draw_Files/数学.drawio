@@ -1,9 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
-  <diagram name="第 1 页" id="gC1SOAJtKHzyucP527QU">
-    <mxGraphModel>
+  <diagram name="Convolutional" id="gC1SOAJtKHzyucP527QU">
+    <mxGraphModel dx="1426" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GitT66hip-517rF5-qJC-36" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="90" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="250" y="180" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-1" value="$$a_1$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-21">
+          <mxGeometry y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-4" value="$$1$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-21">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-7" value="$$a_2$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-21">
+          <mxGeometry x="30" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-8" value="$$2$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-21">
+          <mxGeometry x="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-10" value="$$a_3$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-21">
+          <mxGeometry x="60" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-11" value="$$3$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-21">
+          <mxGeometry x="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-13" value="$$a_4$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-21">
+          <mxGeometry x="90" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-14" value="$$4$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-21">
+          <mxGeometry x="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-16" value="$$a_5$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-21">
+          <mxGeometry x="120" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-17" value="$$5$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-21">
+          <mxGeometry x="120" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-19" value="$$a_6$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-21">
+          <mxGeometry x="150" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-20" value="$$6$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-21">
+          <mxGeometry x="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-35" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-23" value="$$b_6$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-35">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-24" value="$$6$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-35">
+          <mxGeometry y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-25" value="$$b_5$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-35">
+          <mxGeometry x="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-26" value="$$5$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-35">
+          <mxGeometry x="30" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-27" value="$$b_4$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-35">
+          <mxGeometry x="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-28" value="$$4$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-35">
+          <mxGeometry x="60" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-29" value="$$b_3$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-35">
+          <mxGeometry x="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-30" value="$$3$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-35">
+          <mxGeometry x="90" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-31" value="$$b_2$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-35">
+          <mxGeometry x="120" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-32" value="$$2$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-35">
+          <mxGeometry x="120" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-33" value="$$b_1$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-35">
+          <mxGeometry x="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-34" value="$$1$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="GitT66hip-517rF5-qJC-35">
+          <mxGeometry x="150" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="275" y="160" width="235" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-37" value="两次掷骰子的和为&lt;font face=&quot;Helvetica&quot;&gt;4&lt;/font&gt;的概率:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Comic Sans MS;" vertex="1" parent="GitT66hip-517rF5-qJC-39">
+          <mxGeometry width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GitT66hip-517rF5-qJC-38" value="$$a_1b_3 + a_2b_2 + a_3b_1$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="GitT66hip-517rF5-qJC-39">
+          <mxGeometry x="115" width="120" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

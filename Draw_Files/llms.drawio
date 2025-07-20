@@ -56,7 +56,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lzarEEwiP4umfljfq3BW-19" value="2590 model" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="700" y="40" width="60" height="30" as="geometry" />
+          <mxGeometry x="670" y="40" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lzarEEwiP4umfljfq3BW-20" value="3129 transation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="90" width="60" height="30" as="geometry" />

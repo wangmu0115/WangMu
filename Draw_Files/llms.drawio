@@ -135,8 +135,8 @@
         <mxCell id="bio8KR0K-ntSja8qfWz3-14" value="Deepseek-R1&lt;div&gt;gemini-2.5-pro&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;openapi o3&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;......&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1017" y="108" width="126" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="bio8KR0K-ntSja8qfWz3-15" value="Post-Training" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="550" y="370" width="615" height="15" as="geometry" />
+        <mxCell id="bio8KR0K-ntSja8qfWz3-15" value="Post-Training" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="370" width="615" height="18" as="geometry" />
         </mxCell>
         <mxCell id="bio8KR0K-ntSja8qfWz3-16" value="1. 开源模型和数据托管：https://huggingface.co/&lt;div&gt;2. 模型评分：https://lmarena.ai/leaderboard&lt;/div&gt;&lt;div&gt;3. 运行模型&lt;br&gt;- 模型提供商，如ChatGPT、Deepseek&lt;/div&gt;&lt;div&gt;- 托管网站：https://www.together.ai/&lt;/div&gt;&lt;div&gt;- 本地运行：https://lmstudio.ai/&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Comic Sans MS;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;spacingLeft=10;glass=1;shadow=1;arcSize=9;" vertex="1" parent="1">
           <mxGeometry x="156" y="324" width="288" height="101" as="geometry" />

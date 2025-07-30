@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7" pages="9">
   <diagram id="sCRkFeSrtH4M3OacnfB6" name="overview">
     <mxGraphModel dx="1234" dy="705" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -757,6 +757,50 @@
         </mxCell>
         <mxCell id="Xn1zf4QjabFVXMXjdWme-14" value="采样" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="534.26" y="-120" width="35" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lnQQRf6Sza6H7IjJTqTm" name="Post-Training">
+    <mxGraphModel dx="1234" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-1" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-2" value="who is muscarlet?" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-3" value="Assistant" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-5" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;color: rgb(64, 64, 64);&quot;&gt;It seems you might be referring to&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 600; color: rgb(64, 64, 64);&quot;&gt;&quot;Muscat&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(64, 64, 64);&quot;&gt;, as there is no prominent figure named &quot;Muscarlet&quot; in the search results. However, there are two notable individuals........&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;spacingLeft=10;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="RQnl6Vcha-c5HUf9imvg-8" target="RQnl6Vcha-c5HUf9imvg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-8" value="&amp;lt;|SEARCH_START|&amp;gt;who is muscarlet?&amp;lt;|SEARCH_START|&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="RQnl6Vcha-c5HUf9imvg-9" target="RQnl6Vcha-c5HUf9imvg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-9" value="Search Engine" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#e1d5e7;strokeColor=none;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="560" y="176.5" width="40" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-11" value="[...]" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;arcSize=7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-12" value="context window" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-15" value="Tools" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="560" y="241.5" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

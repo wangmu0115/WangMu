@@ -762,7 +762,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lnQQRf6Sza6H7IjJTqTm" name="Post-Training">
-    <mxGraphModel dx="617" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -803,6 +803,45 @@
         </mxCell>
         <mxCell id="RQnl6Vcha-c5HUf9imvg-15" value="Tools" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="560" y="233" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-16" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="RQnl6Vcha-c5HUf9imvg-17" target="RQnl6Vcha-c5HUf9imvg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="RQnl6Vcha-c5HUf9imvg-17" target="RQnl6Vcha-c5HUf9imvg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-17" value="小明购买了44个苹果和17根香蕉，每根香蕉3元，总共花费359元，每个苹果花费多少元？" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="260" y="510" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-18" value="Assistant" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="50" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-19" value="&lt;font color=&quot;#404040&quot;&gt;每个苹果花费7元。因为每根香蕉花费3元，17根香蕉总共花费3*17=51元，因此44个苹果花费359-51=308元，所以每个苹果花费308/44=7元。&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;spacingLeft=10;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="110" y="670" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-20" value="Assistant" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="490" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-21" value="&lt;font color=&quot;#404040&quot;&gt;每根香蕉花费3元，17根香蕉花费3*17=51元。359-51=308元，44个苹果总共花费308元。308/44=7元，每个苹果花费7元，答案是7元。&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#666666;fontFamily=Comic Sans MS;spacingLeft=10;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="670" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-24" value="Bad Response" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-25" value="Good Response" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="193" y="658" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="RQnl6Vcha-c5HUf9imvg-28" target="RQnl6Vcha-c5HUf9imvg-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-28" value="神经网络在训练时，对当前提示词的计算都集中在该token上" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="90" y="585" width="157" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

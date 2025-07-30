@@ -793,7 +793,7 @@
         <mxCell id="RQnl6Vcha-c5HUf9imvg-9" value="Search Engine" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#e1d5e7;strokeColor=none;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="560" y="176.5" width="40" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="RQnl6Vcha-c5HUf9imvg-11" value="[...]" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;arcSize=7;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="RQnl6Vcha-c5HUf9imvg-11" value="[...]" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;arcSize=7;strokeColor=none;fillColor=#FFE6CC;opacity=50;" vertex="1" parent="1">
           <mxGeometry x="160" y="210" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RQnl6Vcha-c5HUf9imvg-12" value="context window" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=8;" vertex="1" parent="1">

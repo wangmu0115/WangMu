@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="第 1 页" id="d290exDFAUv4HRCbIO_s">
-    <mxGraphModel>
+    <mxGraphModel dx="815" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4zyQKPef-uzTqF-2CPc5-1" value="Iterable" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="120" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4zyQKPef-uzTqF-2CPc5-4" value="+ &lt;i&gt;__iter__()&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;" vertex="1" parent="4zyQKPef-uzTqF-2CPc5-1">
+          <mxGeometry y="26" width="120" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="4zyQKPef-uzTqF-2CPc5-5" value="Iterator" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="4zyQKPef-uzTqF-2CPc5-6" value="+ __&lt;i&gt;next__()&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;" vertex="1" parent="4zyQKPef-uzTqF-2CPc5-5">
+          <mxGeometry y="26" width="120" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="4zyQKPef-uzTqF-2CPc5-9" value="+ __iter__()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;" vertex="1" parent="4zyQKPef-uzTqF-2CPc5-5">
+          <mxGeometry y="42" width="120" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="4zyQKPef-uzTqF-2CPc5-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.501;entryY=0.946;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="4zyQKPef-uzTqF-2CPc5-5" target="4zyQKPef-uzTqF-2CPc5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4zyQKPef-uzTqF-2CPc5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="4zyQKPef-uzTqF-2CPc5-4" target="4zyQKPef-uzTqF-2CPc5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

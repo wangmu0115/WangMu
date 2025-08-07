@@ -1269,7 +1269,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n-jCFndEPn2w2RRDWh3w-8" value="PromptTemplate" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1648" width="250" height="62" as="geometry">
+          <mxGeometry x="460" y="1648" width="250" height="62" as="geometry">
             <mxRectangle x="415" y="1670" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1286,10 +1286,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="brG6k2i2p_ap6QWsOH9_" name="PromptValue">
-    <mxGraphModel dx="951" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Mhwx-n36MfJVnC3k40kz-1" value="" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;strokeWidth=0.5;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="690" height="250" as="geometry" />
+        </mxCell>
         <mxCell id="F9xrakOVvQND7tE3LiOR-1" value="PromptValue" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="370" y="130" width="150" height="62" as="geometry">
             <mxRectangle x="200" y="1410" width="130" height="30" as="alternateBounds" />
@@ -1371,6 +1374,9 @@
             <mxPoint x="630" y="265" as="sourcePoint" />
             <mxPoint x="830" y="440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Hf_zsRBOLQQfXfLfpUtf-1" value="langchain_core.prompt_values" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontFamily=Comic Sans MS;fillColor=none;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

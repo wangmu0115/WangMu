@@ -812,7 +812,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="PromptTemplate" id="dq5qYhCKUzZrULwnAqDB">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1650" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1247,7 +1247,7 @@
         <mxCell id="n-jCFndEPn2w2RRDWh3w-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="MRgQWgqWGtbN06oqEmhB-54" target="MRgQWgqWGtbN06oqEmhB-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MRgQWgqWGtbN06oqEmhB-54" value="FewShotPromptTemplate" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" collapsed="1" parent="1">
+        <mxCell id="MRgQWgqWGtbN06oqEmhB-54" value="FewShotPromptTemplate" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="-280" y="1970" width="150" height="30" as="geometry">
             <mxRectangle x="-350" y="740" width="160" height="34" as="alternateBounds" />
           </mxGeometry>
@@ -1269,7 +1269,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n-jCFndEPn2w2RRDWh3w-8" value="PromptTemplate" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1648" width="250" height="160" as="geometry">
+          <mxGeometry x="-535" y="2050" width="250" height="160" as="geometry">
             <mxRectangle x="415" y="1670" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1349,6 +1349,38 @@
             <mxPoint x="650" y="2129" as="sourcePoint" />
             <mxPoint x="1026" y="2100" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JdLqxuhK09XrTw0NSBHy-1" value="&lt;span style=&quot;&quot;&gt;FewShotPromptTemplate&lt;/span&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="2050" width="250" height="160" as="geometry">
+            <mxRectangle x="415" y="1670" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JdLqxuhK09XrTw0NSBHy-2" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&amp;nbsp;&lt;/span&gt;template: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;" vertex="1" parent="JdLqxuhK09XrTw0NSBHy-1">
+          <mxGeometry y="26" width="250" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="JdLqxuhK09XrTw0NSBHy-3" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ template_format:&amp;nbsp;&lt;/span&gt;Literal[&quot;f-string&quot;, &quot;mustache&quot;, &quot;jinja2&quot;]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;" vertex="1" parent="JdLqxuhK09XrTw0NSBHy-1">
+          <mxGeometry y="44" width="250" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="JdLqxuhK09XrTw0NSBHy-4" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" vertex="1" parent="JdLqxuhK09XrTw0NSBHy-1">
+          <mxGeometry y="62" width="250" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="JdLqxuhK09XrTw0NSBHy-5" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;+&amp;nbsp;&lt;/font&gt;&lt;/span&gt;{classmethod}&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;from_template&lt;/b&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;(&lt;/font&gt;template: str&lt;font style=&quot;&quot;&gt;)&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;fontColor=#000000;" vertex="1" parent="JdLqxuhK09XrTw0NSBHy-1">
+          <mxGeometry y="66" width="250" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="JdLqxuhK09XrTw0NSBHy-6" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;+&amp;nbsp;&lt;/font&gt;&lt;/span&gt;{classmethod}&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span&gt;from_examples&lt;/span&gt;&lt;font&gt;(examples: list[str], suffix: str)&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;fontColor=#000000;fontStyle=0" vertex="1" parent="JdLqxuhK09XrTw0NSBHy-1">
+          <mxGeometry y="84" width="250" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="JdLqxuhK09XrTw0NSBHy-7" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;+&amp;nbsp;&lt;/font&gt;&lt;/span&gt;{classmethod}&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span&gt;from_file&lt;/span&gt;&lt;font&gt;(template_file: Union[str, Path])&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;fontColor=#000000;fontStyle=0" vertex="1" parent="JdLqxuhK09XrTw0NSBHy-1">
+          <mxGeometry y="102" width="250" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="JdLqxuhK09XrTw0NSBHy-8" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" vertex="1" parent="JdLqxuhK09XrTw0NSBHy-1">
+          <mxGeometry y="120" width="250" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="JdLqxuhK09XrTw0NSBHy-9" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;b&gt;invoke&lt;/b&gt;(input: dict): StringPromptValue" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;" vertex="1" parent="JdLqxuhK09XrTw0NSBHy-1">
+          <mxGeometry y="124" width="250" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="JdLqxuhK09XrTw0NSBHy-10" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&amp;nbsp;&lt;/span&gt;format(**kwargs: Any): str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;" vertex="1" parent="JdLqxuhK09XrTw0NSBHy-1">
+          <mxGeometry y="142" width="250" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
